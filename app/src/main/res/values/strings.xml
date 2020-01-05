@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">@string/learn_forward</string>
+    <string name="learn_forward">Learn Forward</string>
+    <string name="title_activity_home">Home</string>
+    <string name="prelims">Prelims</string>
+    <string name="mains">Mains</string>
+    <string name="timeline">Timeline</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="live">Live</string>
+    <string name="good_morning_ananth">Good Morning,\nAnanth!</string>
+    <string name="learning_analysis">Learning Analysis</string>
+    <string name="user_image">user_image</string>
+    <string name="quick_searches">Quick Searches</string>
+    <string name="my_table">My Table</string>
+    <string name="daily_editorial_enrichment_program">Editorial Enrichment Program</string>
+    <string name="bills_amp_acts"><![CDATA[Bills & Acts]]></string>
+    <string name="whats_new">Whats New?</string>
+    <string name="settings">Settings</string>
+    <string name="my_time_table">My Time Table</string>
+    <string name="search">Search</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="recommended_classes">Recommended Classes</string>
+    <string name="prasad_vennam_master_of_commerce">Prasad Vennam(Master of Commerce)</string>
+    <string name="cultural_history_of_india">Cultural History of India</string>
+    <string name="home">home</string>
+    <string name="title_name">Title Name</string>
+    <string name="_10k">10K</string>
+    <string name="_80_640_views">80,640 views</string>
+    <string name="about">An author is the creator or originator of any written work such as a book or play, and is also considered a writer. More broadly defined, an author is the person who originated or gave existence to anything and whose authorship determines responsibility for what was created.</string>
+</resources>
