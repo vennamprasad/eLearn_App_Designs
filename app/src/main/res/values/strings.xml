@@ -72,5 +72,12 @@
     <string name="courses">Courses</string>
     <string name="tests">Tests</string>
     <string name="performance_analysis">Performance Analysis</string>
+    <string name="guess_analysis">Guess Analysis</string>
+    <string name="score">Out of 12 Questions You guessed,5 are correct!</string>
+    <string name="change_schedule">Change Schedule</string>
+    <string name="review_questions">Review Questions</string>
+    <string name="exit">Exit</string>
+    <string name="_5_12">5/12</string>
+    <string name="you_lost_2_64_marks_for_negative_marking">You lost 2.64 marks for negative marking.</string>
 
 </resources>

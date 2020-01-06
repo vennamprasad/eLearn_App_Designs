@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:orientation="horizontal"
-                android:padding="5dp"
+                android:padding="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/calendarView">
@@ -114,7 +114,8 @@
             android:layout_height="?actionBarSize"
             android:layout_alignParentBottom="true"
             android:background="@color/colorPrimary"
-            android:text="Change Schedule"
+            android:text="@string/change_schedule"
+            android:layout_margin="@dimen/spacing_middle"
             android:textColor="@color/white"
             android:textStyle="bold" />
 

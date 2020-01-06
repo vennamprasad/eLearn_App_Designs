@@ -54,9 +54,8 @@ class HomeActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
                 "Notifactions selected",
                 Toast.LENGTH_SHORT
             )
-                .show()
-            else -> {
-            }
+            android.R.id.home ->
+                loadFragment(TimelineFragment())
         }
         return true
     }

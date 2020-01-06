@@ -23,12 +23,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme1"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".LearningAnalysisActivity" />
         <activity
-            android:name=".ScrollingActivity"
-            android:label="@string/title_activity_scrolling"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme1.NoActionBar" />
+            android:name=".LearningAnalysisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:screenOrientation="portrait"
