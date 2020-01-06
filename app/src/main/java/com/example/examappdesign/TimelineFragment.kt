@@ -41,7 +41,7 @@ class TimelineFragment : Fragment() {
             val mLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
             view.recyclerView!!.layoutManager = mLayoutManager
             view.recyclerView!!.addItemDecoration(
-                DividerItemDecoration(activity, LinearLayoutManager.HORIZONTAL)
+                DividerItemDecoration(activity, 0)
             )
             loadJSON(view)
         } catch (e: Exception) {

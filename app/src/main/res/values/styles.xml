@@ -66,6 +66,12 @@
     <style name="AppTheme1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <!--
         <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
             <item name="android:minWidth">30dp</item>
