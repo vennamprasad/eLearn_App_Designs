@@ -47,7 +47,6 @@ class LearningAnalysisActivity : AppCompatActivity() {
         labels.add("Skip")
         val data = BarData(labels, barDataSet)
         barChart.data = data // set the data and list of lables into chart
-        barChart.setDescriptionTextSize(15f)
         barChart.alpha = 0.9f
         barChart.setDescriptionTypeface(
             ResourcesCompat.getFont(this, R.font.karla)
@@ -56,7 +55,7 @@ class LearningAnalysisActivity : AppCompatActivity() {
 
         //barDataSet.setColors(ColorTemplate.COLORFUL_COLORS)
         barDataSet.color = getColor(R.color.colorAccent)
-        barDataSet.setValueTextSize(15f);
+        barDataSet.valueTextSize = 15f;
         barChart.axisRight.isEnabled = false
         barChart.axisLeft.isEnabled = false
         val leftAxis: YAxis = barChart.axisLeft
@@ -67,6 +66,7 @@ class LearningAnalysisActivity : AppCompatActivity() {
         barChart.xAxis.textColor = resources.getColor(R.color.teal)
         barChart.xAxis.spaceBetweenLabels = 5
         barChart.legend.isEnabled = false
+        barChart.setExtraOffsets(0f,0f,20f,12f);
         barChart.setPinchZoom(false)
         barChart.setDescription("")
         barChart.setTouchEnabled(false)
