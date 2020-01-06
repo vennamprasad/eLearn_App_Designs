@@ -55,7 +55,7 @@ class LearningAnalysisActivity : AppCompatActivity() {
 
         //barDataSet.setColors(ColorTemplate.COLORFUL_COLORS)
         barDataSet.color = getColor(R.color.colorAccent)
-        barDataSet.valueTextSize = 15f;
+        barDataSet.valueTextSize = 15f
         barChart.axisRight.isEnabled = false
         barChart.axisLeft.isEnabled = false
         val leftAxis: YAxis = barChart.axisLeft
@@ -66,7 +66,7 @@ class LearningAnalysisActivity : AppCompatActivity() {
         barChart.xAxis.textColor = resources.getColor(R.color.teal)
         barChart.xAxis.spaceBetweenLabels = 5
         barChart.legend.isEnabled = false
-        barChart.setExtraOffsets(0f,0f,20f,12f);
+        barChart.setExtraOffsets(0f,0f,20f,12f)
         barChart.setPinchZoom(false)
         barChart.setDescription("")
         barChart.setTouchEnabled(false)
