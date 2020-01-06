@@ -1,6 +1,7 @@
 package com.example.examappdesign
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,14 +15,14 @@ import com.example.examappdesign.adapter.ClassInfoAdapter
 import com.example.examappdesign.model.ClassInfo
 import com.example.examappdesign.model.NewsResource
 import com.example.examappdesign.retrofit.ApiClient
-import kotlinx.android.synthetic.main.content_home.*
 import kotlinx.android.synthetic.main.content_home.view.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import java.util.*
 
-class TimelineFragment : Fragment() {
+
+class TimelineFragment : Fragment(), View.OnClickListener {
     private var newsArrayList: ArrayList<ClassInfo> = ArrayList()
     private var mAdapter: ClassInfoAdapter? = null
     override fun onCreateView(
@@ -38,6 +39,7 @@ class TimelineFragment : Fragment() {
         try {
             view.viewPager.adapter = CategoryAdapter(activity)
             view.viewPager.adapter = CategoryAdapter(activity)
+            view.learning_analysis.setOnClickListener(this)
             val mLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
             view.recyclerView!!.layoutManager = mLayoutManager
             view.recyclerView!!.addItemDecoration(
@@ -89,6 +91,15 @@ class TimelineFragment : Fragment() {
         } catch (e: Exception) {
             view.progressBar!!.visibility = View.VISIBLE
             e.printStackTrace()
+        }
+    }
+
+    override fun onClick(v: View?) {
+        when(v?.id){
+            R.id.learning_analysis->{
+                val intent = Intent(activity, LearningAnalysisActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
 }

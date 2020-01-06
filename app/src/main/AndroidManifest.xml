@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme1"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".LearningAnalysisActivity" />
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
@@ -41,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OneDayPickerActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

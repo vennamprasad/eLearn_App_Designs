@@ -71,5 +71,6 @@
     <string name="material_calendar_negative_button">Cancel</string>
     <string name="courses">Courses</string>
     <string name="tests">Tests</string>
+    <string name="performance_analysis">Performance Analysis</string>
 
 </resources>

@@ -44,6 +44,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <Button
+                    android:id="@+id/learning_analysis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
