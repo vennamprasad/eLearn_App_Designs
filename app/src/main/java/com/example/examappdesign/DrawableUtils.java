@@ -25,11 +25,4 @@ public final class DrawableUtils {
         Drawable[] layers = {background, text};
         return new LayerDrawable(layers);
     }
-
-    public static Drawable getThreeDots(Context context) {
-        Drawable drawable = ContextCompat.getDrawable(context, R.drawable.sample_three_icons);
-
-        //Add padding to too large icon
-        return new InsetDrawable(drawable, 100, 0, 100, 0);
-    }
 }
