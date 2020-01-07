@@ -50,4 +50,6 @@ dependencies {
     //  cal
     implementation 'com.applandeo:material-calendar-view:1.7.0'
     implementation 'com.github.PhilJay:MPAndroidChart:v2.2.4'
+
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 }

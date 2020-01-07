@@ -42,9 +42,6 @@ class TimelineFragment : Fragment(), View.OnClickListener {
             view.learning_analysis.setOnClickListener(this)
             val mLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false)
             view.recyclerView!!.layoutManager = mLayoutManager
-            view.recyclerView!!.addItemDecoration(
-                DividerItemDecoration(activity, 0)
-            )
             loadJSON(view)
         } catch (e: Exception) {
             e.printStackTrace()
