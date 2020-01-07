@@ -86,10 +86,10 @@
                                 android:id="@+id/iv_user"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
+                                android:src="@drawable/administrator_male_100px"
                                 app:civ_border_color="@color/white"
                                 app:civ_border_width="1dp"
-                                app:civ_circle_background_color="@color/white"
-                                android:src="@drawable/administrator_male_100px" />
+                                app:civ_circle_background_color="@color/white" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -128,10 +128,10 @@
             android:id="@+id/quick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/karla_bold"
-            android:padding="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/karla_bold"
+            android:padding="10dp"
             android:text="@string/recommended_classes"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/gray_light"
